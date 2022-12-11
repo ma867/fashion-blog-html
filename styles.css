@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
+
+
+* {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  border: 1px solid black;
+}
+
+body{
+  border-left: 5px solid lightgray;
+  padding: 50px;
+  background-color: #fff;
+  color: #808080;
+  font-family:  'Oxygen', sans-serif;
+}
+
+
+article {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 4rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+article p{
+  font-size:14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 1.8;
+}
+
+.paragraph:first-letter{
+  float: left;
+  font-size: 72px;
+  line-height: 1;
+  margin: 0 0.7rem 0 0;
+}
+.navigation ul{
+
+  list-style: none;
+  
+}
+
+.navigation li{
+  display: inline-block;
+  padding-right: 16px;
+}
+
+.navigation a{
+  color: #8d8d8d;
+  text-decoration: none;
+}
+nav.navigation a{
+  text-decoration: underline;
+}
+
+nav.navigation{
+  margin-bottom: 40px;
+}
+
+
+
+footer.navigation a{
+  font-size: 14px;
+}
+
+h1,
+.continue a,
+footer.navigation a {
+  color: tomato;
+}
+
+
+.continue {
+  text-align: right;
+}
+
+.continue a {
+  text-decoration: none;
+   font-weight: 700;
+}
+
+h2,h3 {
+  color: #0f0f0f;
+  font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+h1{
+  font-size: 52px;
+}
+h2{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-size: 24px;
+}
+
+img {
+  width: 100%;
+}
+
+.copyright {
+  color: lightgray;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
